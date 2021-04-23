@@ -5,3 +5,5 @@ The official website for the popular Discord server and bot Relaxed Downtown! Yo
 Discod Server: https://discord.gg/NAhTTaaJuv
 
 Bot Repository: https://github.com/LAXCartMan/Downtown-Bot
+
+Website: https://relaxed-downtown.github.io
