@@ -41,13 +41,20 @@ a:hover, button:hover {
 }
 
 .navbar {
-  list-style-type: none;
-  padding: 0px;
+  color: #04223e;
+  border: 0;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0px 0px;
+  border-radius: 0px;
 }
 
 .navbar .nav-item:not(:last-child) {
   float: left;
-  padding: 10px;
+  padding: 10px 15px;
+  margin: 10px;
+  background-color: #d350f4;
+  border-radius: 10px;
 }
 
 
@@ -55,34 +62,34 @@ a:hover, button:hover {
   float: left;
   padding: 10px 15px;
   margin: 10px;
-  background: linear-gradient(45deg, #ff00f2, #f700ff);
+  background-color: #d350f4;
   border-radius: 10px;
 }
 
 .hero-section {
   background-color: #04223E;
-  background-image: url("./img/w2dwjxw5hch41.png.png");
+  background-image: url("https://github.com/Relaxed-Downtown/relaxed-downtown.github.io/blob/main/img/w2dwjxw5hch41.png.png?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 16.8em 0 14.8em 0;
-  border-radius: 0 0 100px 100px;
+  border-radius: 0 0 50px 50px;
 
 }
 
 .hero-title {
-  margin: 0px;
+  margin: 15px;
 }
 
 .hero-description {
-  margin: 100px;
+  margin: 20px;
 }
 
 .hero-btn {
-  background: linear-gradient(45deg, #ff00f2, #f700ff);
+  background: linear-gradient(45deg, #d350f4, #d350f4);
 }
 
 .s-m-section {
-  background: linear-gradient(45deg, #ff00f2, #f700ff);
+  background: linear-gradient(45deg, #d350f4, #d350f4);
   padding: 20px;
 }
 
@@ -104,7 +111,7 @@ a:hover, button:hover {
 
 .s-m-btn-2 {
   background-color: #03192e;
-  color: #F47850;
+  color: #d350f4;
 }
 
 .time-load-section {
@@ -136,10 +143,12 @@ a:hover, button:hover {
 }
 
 .feutures-section {
-  padding: 85px 60px;
+  padding: 90px 60px;
+  background-image: url("./img/wave.png");
+  width: 100%;
   background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: bottom;
+  background-position-x: left;
+  background-position-y: top;
 }
 
 .feutures-card {
