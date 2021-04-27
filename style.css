@@ -86,6 +86,10 @@ a:hover, button:hover {
 
 .hero-btn {
   background: linear-gradient(45deg, #d350f4, #d350f4);
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 10px;
+  color: #FFF;
 }
 
 .s-m-section {
@@ -142,87 +146,11 @@ a:hover, button:hover {
   flex: 33.33%;
 }
 
-.feutures-section {
+.features {
   padding: 90px 60px;
-  background-image: url("./img/wave.png");
   width: 100%;
   background-repeat: no-repeat;
   background-position-x: left;
   background-position-y: top;
 }
 
-.feutures-card {
-  padding: 15px;
-}
-
-.row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
-.container {
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-
-}
-
-@media (min-width: 576px) {
-  .card {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-  .statics-rows {
-    flex: 100%;
-    -ms-flex: 0 0 100%;
-    max-width: 100%;
-  }
-}
-
-@media (min-width: 768px) {
-  .card {
-    -ms-flex: 0 0 45%;
-    flex: 0 0 45%;
-    max-width: 45%;
-  }
-  .statics-rows {
-    flex: 33.33%;
-    max-width: 33.33%;
-    flex: 0 0 33.33%;
-  }
-}
-
-@media (min-width: 992px) {
-  .card {
-    -ms-flex: 0 0 45%;
-     flex: 0 0 45%; 
-     max-width: 45%;
-  }
-  .statics-rows {
-    flex: 33.33%;
-    max-width: 33.33%;
-    flex: 0 0 33.33%;
-  }
-}
