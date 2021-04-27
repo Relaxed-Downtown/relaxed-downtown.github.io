@@ -6,6 +6,6 @@ Discod Server: https://discord.gg/NAhTTaaJuv
 
 Bot Repository: https://github.com/LAXCartMan/Downtown-Bot
 
-Website: https://relaxed-downtown.github.io
+Website: https://downtownbot.ml
 
 Bot Invite: https://discord.com/api/oauth2/authorize?client_id=834846536910897193&permissions=8&scope=bot
