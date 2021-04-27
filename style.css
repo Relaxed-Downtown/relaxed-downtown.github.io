@@ -42,7 +42,7 @@ a:hover, button:hover {
 
 .navbar {
   list-style-type: none;
-  padding: 5px;
+  padding: 0px;
 }
 
 .navbar .nav-item:not(:last-child) {
@@ -52,37 +52,37 @@ a:hover, button:hover {
 
 
 .navbar .nav-item:last-child {
-  float: right;
+  float: left;
   padding: 10px 15px;
   margin: 10px;
-  background-color: #F47850;
+  background: linear-gradient(45deg, #ff00f2, #f700ff);
   border-radius: 10px;
 }
 
 .hero-section {
   background-color: #04223E;
-  background-image: url("./img/rabbit.png");
+  background-image: url("./img/w2dwjxw5hch41.png.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 16.8em 0 14.8em 0;
-  border-radius: 0 0 50px 50px;
+  border-radius: 0 0 100px 100px;
 
 }
 
 .hero-title {
-  margin: 15px;
+  margin: 0px;
 }
 
 .hero-description {
-  margin: 20px;
+  margin: 100px;
 }
 
 .hero-btn {
-  background: linear-gradient(45deg, #F47850, #FFA93A);
+  background: linear-gradient(45deg, #ff00f2, #f700ff);
 }
 
 .s-m-section {
-  background: linear-gradient(45deg, #F47850, #FFA93A);
+  background: linear-gradient(45deg, #ff00f2, #f700ff);
   padding: 20px;
 }
 
