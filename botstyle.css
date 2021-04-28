@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #03192E;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+button {
+  color: #04223e;
+  border: 0;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+  padding: 5px;
+}
+
+a:hover, button:hover {
+  opacity: .7;
+}
+
+.navbar {
+  color: #04223e;
+  border: 0;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0px 0px;
+  border-radius: 0px;
+}
+
+.navbar .nav-item:not(:last-child) {
+  float: left;
+  padding: 10px 15px;
+  margin: 10px;
+  background-color: #d350f4;
+  border-radius: 10px;
+}
+
+
+.navbar .nav-item:last-child {
+  float: left;
+  padding: 10px 15px;
+  margin: 10px;
+  background-color: #d350f4;
+  border-radius: 10px;
+}
+
+.hero-section {
+  background-color: #04223E;
+  background-image: url("https://github.com/Relaxed-Downtown/relaxed-downtown.github.io/blob/main/img/w2dwjxw5hch41.png.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 16.8em 0 14.8em 0;
+  border-radius: 0 0 50px 50px;
+
+}
+
+.hero-title {
+  margin: 15px;
+}
+
+.hero-description {
+  margin: 20px;
+}
+
+.hero-btn {
+  background: linear-gradient(45deg, #d350f4, #d350f4);
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 10px;
+  color: #FFF;
+}
+
+.about-us {
+  background: linear-gradient(45deg, #d350f4, #d350f4);
+  padding: 20px;
+}
+
+
+.s-m-title {
+  margin: 20px;
+}
+
+.s-m-descritpion {
+  margin: 0 0 40px 0;
+}
+
+.s-m-btn {
+  border: 2px solid #03192e;
+  color: #03192e;
+  padding: 8px 20px;
+  background: 0;
+}
+
+.s-m-btn-2 {
+  background-color: #03192e;
+  color: #d350f4;
+}
+
+.time-load-section {
+  background: linear-gradient(0deg, #E6F0FA 40%, #03192E 40%);
+  padding: 100px 0;
+}
+
+.card {
+  padding: 60px;
+  border-radius: 10px;
+  background: #FFF;
+  color: #414f7b;
+  margin: 15px;
+  box-shadow: -1px 1px 20px 2px #00000030;
+}
+
+.statics-section {
+  background-color: #E6F0FA;
+  color: #03192E;
+  padding: 70px;
+}
+
+.statics-description {
+  margin: 10px 0 50px 0;
+}
+
+.statics-rows {
+  flex: 33.33%;
+}
+
+.features {
+  padding: 90px 60px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: top;
+}
+
