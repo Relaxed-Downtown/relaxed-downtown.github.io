@@ -41,34 +41,33 @@ a:hover, button:hover {
 }
 
 .navbar {
-  color: #04223e;
-  border: 0;
-  font-weight: 600;
-  cursor: pointer;
-  padding: 0px 0px;
-  border-radius: 0px;
+  list-style-type: none;
+  padding: 5px;
 }
+
 
 .navbar .nav-item:not(:last-child) {
   float: left;
-  padding: 10px 15px;
+  padding: 10px;
+  background-color: #F47850;
   margin: 10px;
-  background-color: #d350f4;
+  background-color: #F47850;
   border-radius: 10px;
 }
 
 
+
 .navbar .nav-item:last-child {
-  float: left;
+  float: right;
   padding: 10px 15px;
   margin: 10px;
-  background-color: #d350f4;
+  background-color: #F47850;
   border-radius: 10px;
 }
 
 .hero-section {
   background-color: #04223E;
-  background-image: url("https://github.com/Relaxed-Downtown/relaxed-downtown.github.io/blob/main/img/w2dwjxw5hch41.png.png?raw=true");
+  background-image: url("./img/header-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 16.8em 0 14.8em 0;
@@ -85,15 +84,11 @@ a:hover, button:hover {
 }
 
 .hero-btn {
-  background: linear-gradient(45deg, #d350f4, #d350f4);
-  padding: 10px 15px;
-  margin: 10px;
-  border-radius: 10px;
-  color: #FFF;
+  background: linear-gradient(45deg, #F47850, #FFA93A);
 }
 
 .s-m-section {
-  background: linear-gradient(45deg, #d350f4, #d350f4);
+  background: linear-gradient(45deg, #F47850, #FFA93A);
   padding: 20px;
 }
 
@@ -115,7 +110,7 @@ a:hover, button:hover {
 
 .s-m-btn-2 {
   background-color: #03192e;
-  color: #d350f4;
+  color: #F47850;
 }
 
 .time-load-section {
@@ -146,12 +141,86 @@ a:hover, button:hover {
   flex: 33.33%;
 }
 
-.features {
-  padding: 90px 60px;
-  width: 100%;
+.feutures-section {
+  padding: 85px 60px;
+  background-image: url("./img/wave.png");
   background-repeat: no-repeat;
-  background-position-x: left;
-  background-position-y: top;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 
+.feutures-card {
+  padding: 15px;
+}
 
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+
+}
+
+@media (min-width: 576px) {
+  .card {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .statics-rows {
+    flex: 100%;
+    -ms-flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    -ms-flex: 0 0 45%;
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+  .statics-rows {
+    flex: 33.33%;
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    -ms-flex: 0 0 45%;
+     flex: 0 0 45%; 
+     max-width: 45%;
+  }
+  .statics-rows {
+    flex: 33.33%;
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+  }
+}
