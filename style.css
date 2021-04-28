@@ -92,7 +92,7 @@ a:hover, button:hover {
   color: #FFF;
 }
 
-.s-m-section {
+.about-us {
   background: linear-gradient(45deg, #d350f4, #d350f4);
   padding: 20px;
 }
@@ -153,5 +153,4 @@ a:hover, button:hover {
   background-position-x: left;
   background-position-y: top;
 }
-
 
