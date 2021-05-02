@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Neucha&display=swap);
+
 
 * {
   margin: 0;
@@ -30,6 +32,16 @@ button {
   border-radius: 5px;
 }
 
+.button {
+  padding: 10px 20px;
+  background-color: #5c2fa5;
+  margin: 10px;
+  background-color: #5c2fa5;
+  border-radius: 10px;  
+
+}
+
+
 a {
   text-decoration: none;
   color: #fff;
@@ -47,7 +59,7 @@ a:hover, button:hover {
 
 
 .navbar .nav-item:not(:last-child) {
-  float: left;
+  float: right;
   padding: 10px;
   background-color: #5c2fa5;
   margin: 10px;
@@ -58,7 +70,7 @@ a:hover, button:hover {
 
 
 .navbar .nav-item:last-child {
-  float: right;
+  float: left;
   padding: 10px 15px;
   margin: 10px;
   background-color: #5c2fa5;
@@ -119,23 +131,34 @@ font-size: xx-large;
 }
 
 .time-load-section {
-  background: linear-gradient(0deg, #E6F0FA 40%, #03192E 40%);
-  padding: 100px 0;
+  background: linear-gradient(0deg, #03192E 40%, #03192E 40%);
+  padding: 25px 0;
+  color: #FFF;
+  margin: 50px;
 }
 
 .card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 15px;
-  margin: 10px;
-  background-color: #fff;
+  padding: 60px;
   border-radius: 10px;
+  background: #FFF;
+  color: #000;
+  margin: auto;
+  box-shadow: -1px 1px 20px 2px #00000030;
+  
+
+}
+
+.card-girl {
+  text-align: center;
 }
 
 
+.card-text{
+padding-bottom: 100px;
+}
+
 .statics-section {
-  background-color: #E6F0FA;
+  background-color: #03192E;
   color: #03192E;
   padding: 70px;
 }
@@ -146,6 +169,14 @@ font-size: xx-large;
 
 .statics-rows {
   flex: 33.33%;
+}
+
+.hero-btn {
+  background: linear-gradient(45deg, #d350f4, #d350f4);
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 10px;
+  color: #FFF;
 }
 
 .feutures-section {
@@ -161,7 +192,7 @@ font-size: xx-large;
 }
 
 .row {
-  display: -ms-fleox;
+  display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -172,7 +203,16 @@ font-size: xx-large;
 .container {
   padding: 0 15px;
   margin: 0 auto;
+  
+  
 }
+
+.container2 {
+text-align: center;  
+margin: 15px;
+font-size: 50px;
+}
+
 
 @media (min-width: 768px) {
   .container {
