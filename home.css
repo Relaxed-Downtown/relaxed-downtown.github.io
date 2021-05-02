@@ -59,7 +59,7 @@ a:hover, button:hover {
 
 
 .navbar .nav-item:not(:last-child) {
-  float: left;
+  float: right;
   padding: 10px;
   background-color: #5c2fa5;
   margin: 10px;
@@ -137,6 +137,9 @@ font-size: xx-large;
   margin: 50px;
 }
 
+
+
+
 .card {
   padding: 60px;
   border-radius: 10px;
@@ -144,23 +147,81 @@ font-size: xx-large;
   color: #000;
   margin: auto;
   box-shadow: -1px 1px 20px 2px #00000030;
+  padding-top: 5px;
   
 
 }
 
 .card-girl {
   text-align: center;
+  border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+   border-top-left-radius: 50px;
+   border-top-right-radius: 50px;
+padding-top: 20px;
+  }
+.card-image {
+width: 200px;
+height: 200px;  
 }
 
 
+
 .card-text{
-padding-bottom: 100px;
+padding-bottom: 30px;
+
+}
+
+
+.card-text2{
+text-align: left;  
+padding-top: 2px;
+font-size: x-large;
+}
+
+.card-text3 {
+color: green;  
+}
+
+.card-text4 {
+  color: red;  
+  }
+
+  .card-text5 {
+    text-align: left;  
+  font-size: 25px;
+  color: #977dec;
+  }
+
+  .card-text6 {
+  text-align: left;
+  font-size: 25px;
+  color: #d12d96;
+  padding-top: 15px;
+  }
+
+  .card-text7 {
+    text-align: left;
+    font-size: 25px;
+    color: #c5b423;
+    padding-top: 15px; 
+  }
+  
+.lofi-city {
+  float: right;
+margin-bottom: 10px;
+margin-left: 5px;
+margin-right: 220px;
+border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+   border-top-left-radius: 50px;
+   border-top-right-radius: 50px;
 }
 
 .statics-section {
   background-color: #03192E;
   color: #03192E;
-  padding: 70px;
+  
 }
 
 .statics-description {
@@ -181,10 +242,10 @@ padding-bottom: 100px;
 
 .feutures-section {
   padding: 85px 60px;
-  background-image: url("./img/wave.png");
+  background-image: url("https://www9.lunapic.com/do-not-link-here-use-hosting-instead/161996912076438518?5538451479");
   background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: bottom;
+  background: linear-gradient(0deg, #fff 40%, #fff 40%);
+  
 }
 
 .feutures-card {
@@ -211,6 +272,11 @@ padding-bottom: 100px;
 text-align: center;  
 margin: 15px;
 font-size: 50px;
+}
+
+.copyright {
+  
+  text-align: botto;
 }
 
 
@@ -271,3 +337,4 @@ font-size: 50px;
     flex: 0 0 33.33%;
   }
 }
+
