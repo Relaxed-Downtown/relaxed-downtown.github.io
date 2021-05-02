@@ -59,7 +59,7 @@ a:hover, button:hover {
 
 
 .navbar .nav-item:not(:last-child) {
-  float: right;
+  float: left;
   padding: 10px;
   background-color: #5c2fa5;
   margin: 10px;
