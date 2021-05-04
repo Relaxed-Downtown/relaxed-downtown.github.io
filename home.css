@@ -138,7 +138,9 @@ font-size: small;
   margin: 50px;
 }
 
-
+.card-title {
+  font-size: 27.5px;
+}
 
 
 .card {
@@ -196,6 +198,7 @@ color: green;
     text-align: left;  
   font-size: 25px;
   color: #977dec;
+  padding-top: 15px;
   }
 
   .card-text6 {
@@ -211,6 +214,20 @@ color: green;
     color: #c5b423;
     padding-top: 15px; 
   }
+
+  .card-text8 {
+    text-align: left;
+    font-size: 25px;
+    color: #b953d8;
+    padding-top: 15px; 
+  }
+
+  .card-text9 {
+    text-align: left;  
+    padding-top: 2px;
+    font-size: 22px;
+  }
+  
   
 .lofi-city {
   float: right;
