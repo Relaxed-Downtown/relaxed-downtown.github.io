@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
 @import url(https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap);
-
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +17,7 @@ html {
 body {
   background: #03192E;
   color: #FFF;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Patrick Hand', cursive;
   text-align: center;
 }
 
@@ -54,16 +53,16 @@ a:hover, button:hover {
   float: left;
   padding: 10px 15px;
   margin: 10px;
-  background-color: #d350f4;
+  background-color: #977dec;
   border-radius: 10px;
 }
 
 
 .navbar .nav-item:last-child {
-  float: left;
+  float: right;
   padding: 10px 15px;
   margin: 10px;
-  background-color: #d350f4;
+  background-color: #977dec;
   border-radius: 10px;
 }
 
@@ -74,29 +73,36 @@ a:hover, button:hover {
   background-size: cover;
   padding: 16.8em 0 14.8em 0;
   border-radius: 0 0 50px 50px;
-
 }
 
 .hero-title {
   margin: 15px;
+  font-size: 40px;
 }
 
 .hero-description {
   margin: 20px;
+  border-radius: 0 0 50px 50px;
+font-size: x-large;
 }
 
+
 .hero-btn {
-  background: linear-gradient(45deg, #d350f4, #d350f4);
+  background: linear-gradient(45deg, #977dec, #977dec);
   padding: 10px 15px;
   margin: 10px;
   border-radius: 10px;
   color: #FFF;
+  font-family: 'Patrick Hand', cursive;
 }
 
+
 .about-us {
-  background: linear-gradient(45deg, #d350f4, #d350f4);
+  background: linear-gradient(45deg, #03192E, #03192E);
   padding: 20px;
 }
+
+
 
 
 .s-m-title {
@@ -124,6 +130,10 @@ a:hover, button:hover {
   padding: 100px 0;
 }
 
+.feutures-card-title {
+  font-size: 45px; 
+  }
+
 .card {
   padding: 60px;
   border-radius: 10px;
@@ -132,6 +142,25 @@ a:hover, button:hover {
   margin: 15px;
   box-shadow: -1px 1px 20px 2px #00000030;
 }
+.card-text2{
+  text-align: left;  
+  padding-top: 2px;
+  font-size: medium;
+  }
+
+  .card-textred{
+    text-align: left;  
+    padding-top: 2px;
+    font-size: x-large;
+    color: red;
+    }
+
+    .card-textgreen{
+      text-align: left;  
+      padding-top: 2px;
+      font-size: x-large;
+      color: green
+      }
 
 .statics-section {
   background-color: #E6F0FA;
