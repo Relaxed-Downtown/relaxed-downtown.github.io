@@ -79,7 +79,7 @@ a:hover, button:hover {
 
 .hero-section {
   background-color: #04223E;
-  background-image: url("https://wallpapercave.com/wp/wp5250055.jpg");
+  background-image: url("file:///C:/Users/Omen/Downloads/497ca14763086602e93eb16bcc095318.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 16.8em 0 14.8em 0;
@@ -178,6 +178,8 @@ border-bottom-left-radius: 30px;
 padding-bottom: 30px;
 
 }
+
+
 
 
 .card-text2{
